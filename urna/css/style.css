@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #8A0886;
+    text-align: center;
+    font-family: 'Georgia';
+}
+
+.container {
+    margin: auto;
+}
+
+.inicio h1 {
+    color: #8A0886;
+    font-size: 35pt;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 3em;
+}
+
+.inicio p {
+    font-size: 15pt;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+.inicio img {
+    padding-top: 5em;
+}
+
+.btn-inicio, .btn-resultado {
+    background-color: #FF8000;
+    color: #ffffff;
+    font-size: 18pt;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+
+figcaption {
+    color: #610B5E;
+    text-align: center;
+    font-size: 13pt;
+}
+
+/*Formatação da Urna*/
+div#urna-votacao {
+    padding: 0px 0px 120px 0px;
+}
+
+div.tela-urna {
+    text-align: center;
+    font-size: 15pt;
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+
+div.teclado {
+    text-align: center;
+    background-image: url(../img/bandeiragrande.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    border-radius: 10px;
+    border: 5px #0f0f0f solid;
+}
+
+div.teclado button{
+    margin: 9px;
+}
+/*Fim da formatação da Urna */
+
+footer {
+    height: 50%;
+    background-color: black;
+}
+
+footer h5 {
+    color: #ffffff;
+    padding-top: 15px;
+    text-align: center;
+}
+
+img{
+    
+    float: left ;
+}
+
+#nul
+{
+    margin-right: 10%;
+}
+
+#dzin{
+margin-left: 35%;
+
+}
+
+rzin{
+    margin-left: 80%;
+}
